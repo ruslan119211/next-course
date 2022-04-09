@@ -1,6 +1,6 @@
-import {useEffect, useState} from 'react'
 import Link from 'next/link'
 import MainContainer from "../components/MainContainer";
+import style from '../styles/users.module.scss'
 
 const Users = ({users}) => {
 
@@ -8,7 +8,7 @@ const Users = ({users}) => {
     return (
         <MainContainer keywords={"Users list"}>
             <h1>Users list</h1>
-            <ul>
+            <ul className={style.users_list}>
                 {users.map(user =>
                     <li key={user.id}>
                         <Link href={`/users/${user.id}`}>

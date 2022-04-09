@@ -19,7 +19,8 @@ const MainContainer = ({children, keywords}) => {
                 {`
                     .navbar{
                         background: red;
-                        padding: 20px
+                        padding: 20px;
+                        margin-bottom: 25px
                     }
                 `}
             </style>

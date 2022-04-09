@@ -1,0 +1,19 @@
+.users_list {
+  padding-left: 30px;
+
+  li {
+    a {
+      font-size: 16px;
+      text-decoration: none;
+      color: #282c34;
+      margin-bottom: 20px;
+      display: block;
+      &:hover{
+        color: blueviolet;
+      }
+    }
+    &:last-child a{
+      margin-bottom: 0;
+    }
+  }
+}
